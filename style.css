@@ -13,7 +13,6 @@ body{
 #wrapper {
     display: inline-block;
     background-color: #e0e1e3;
-    border-radius: 5px;
 }
 
 .head{
@@ -26,6 +25,9 @@ body{
 
 table{
     border-collapse: collapse;
+    border-style: hidden;
+    border-radius: 5px;
+    box-shadow:0 0 0px 2px #e5e3e3;
 }
 
 
@@ -34,3 +36,12 @@ td{
     border: 1px solid #d1d1d1;
     padding: 16px;
 }
+
+td img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+table tr:first-child td {
+   padding: 16px 30px; 
+}
+
