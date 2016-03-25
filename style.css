@@ -11,8 +11,10 @@ body{
 }
 
 #wrapper {
-    display: inline-block;
-    background-color: #e0e1e3;
+    display: block;
+    margin: 100px auto 0; 
+    max-width: 940px;
+    padding: 0 30px;
 }
 
 .head{
