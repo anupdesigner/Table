@@ -1,0 +1,36 @@
+div,p,h1,h2,h3,body,tr,td{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    color: #646464;
+}
+
+#wrapper {
+    display: inline-block;
+    background-color: #e0e1e3;
+    border-radius: 5px;
+}
+
+.head{
+    font-size: 16px;
+}
+
+.odd_data{
+    background: #e6e6e6;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+
+td{
+    border: 1px solid #d1d1d1;
+    padding: 16px;
+}
